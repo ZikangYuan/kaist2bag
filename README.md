@@ -1,9 +1,6 @@
 # kaist2bag
-A tool to convert KAIST urban dataset to rosbag.
 
-Only tested on Ubuntu 20.04.
-
-
+**This sourced code is modified from [kaist2bag](https://github.com/tsyxyz/kaist2bag) provided form [tsyxyz](https://github.com/tsyxyz), while we combine the left and right 3D LiDAR data under one topic and share the same timestamp.**
 
 ## Guide
 
@@ -37,12 +34,7 @@ roslaunch kaist2bag kaist2bag.launch
 rosrun kaist2bag mergebag.py merged.bag <bag_file_1> ... <bag_file_8>
 ```
 
+## Acknowledgments
 
-
-
-## Acknowledge
-
-File parsing code are referenced from [file_player](https://github.com/irapkaist/file_player).
-
-
+Thanks for [kaist2bag](https://github.com/tsyxyz/kaist2bag).
 
