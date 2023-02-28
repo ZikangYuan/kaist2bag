@@ -15,7 +15,7 @@ find . -name 'urban28*.tar.gz' -execdir tar -xzvf '{}' \;
 ```
 cd src
 git clone https://github.com/irapkaist/irp_sen_msgs.git
-git clone https://github.com/tsyxyz/kaist2bag.git
+git clone https://github.com/ZikangYuan/kaist2bag.git
 cd ..
 catkin build
 ```
