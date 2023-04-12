@@ -1,4 +1,4 @@
-# kaist2bag
+# KAIST to ROS bag
 
 **This sourced code is modified from [kaist2bag](https://github.com/tsyxyz/kaist2bag) provided form [tsyxyz](https://github.com/tsyxyz), while we combine the left and right 3D LiDAR data under one topic and share the same timestamp.**
 
